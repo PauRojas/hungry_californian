@@ -8,7 +8,6 @@ I have not given my code to any student.
 """
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
 import matplotlib.pyplot as plt
 import pydeck as pdk
 
