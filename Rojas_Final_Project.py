@@ -194,13 +194,12 @@ df = read_data()
 if sidebar == "Choose an option":
     st.title("The Hungry Californian")
     st.subheader("Are you in California and wondering where to eat next? Click on the SideBar to find out!")
-    st.image("https://scontent-bos3-1.xx.fbcdn.net/v/t1.6435-9/32161261_1716789848402906_4079559116849152000_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=na3XRr3LugEAX8VQpWG&_nc_ht=scontent-bos3-1.xx&oh=00_AT-FI9hXJcM0DV5VjwOL0hxN3yLlvaHXVqAm9ut4k9yxuQ&oe=629E94F7")
-    st.write(
-        f"Fast-Food Restaurants: From over 10,000 fast food restaurants Nation-wide provided by "
-        "Datafiniti's Business Database, I have selected those located in the sunny state of California. "
-        "This program includes includes all of the things you would like to know about your favorite "
-        "restaurants! Through various graphs, maps, videos, and links to external websites,"
-        " I have created an interactive app useful to those eating in California")
+    st.image("CALI_EATS.png", use_column_width='always',
+             caption="Fast-Food Restaurants: From over 10,000 fast food restaurants Nation-wide provided by "
+                     "Datafiniti's Business Database, I have selected those located in the sunny state of California. "
+                     "This program includes includes all of the things you would like to know about your favorite "
+                     "restaurants! Through various graphs, maps, videos, and links to external websites,"
+                     " I have created an interactive app useful to those eating in California")
 
 # Data Set
 if sidebar == "Want to see the Complete Data Set?":
