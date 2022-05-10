@@ -8,8 +8,10 @@ I have not given my code to any student.
 """
 import streamlit as st
 import pandas as pd
+pip install matplotlib
 import matplotlib.pyplot as plt
 import pydeck as pdk
+
 
 sidebar = st.sidebar.selectbox("Find what you want to know about Fast Food in the US:",
                                ["Choose an option", "Find Restaurants in a Map!",
