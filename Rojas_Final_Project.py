@@ -232,7 +232,7 @@ if sidebar == "How many of YOUR favorite Restaurants are there?":
     st.title("YOUR favorite Restaurants in Sunny California!")
     select_name = st.multiselect("Select a Restaurant Name", names_list,
                                  default=["Subway", "Pizza Hut", "In-N-Out Burger", "Taco Bell",
-                                          "Burger King", "Subway"])
+                                          "Burger King"])
     df = read_data()
     df2 = filtering_name(df, select_name)
     groups2 = df2.groupby('name').count()
